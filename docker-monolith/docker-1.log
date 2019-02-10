@@ -3,3 +3,11 @@ vdvas/ubuntu-tmp-file   latest              b4f295cd5256        2 minutes ago   
 nginx                   latest              f09fe80eb0e7        4 days ago          109MB
 ubuntu                  16.04               7e87e2b3bf7a        2 weeks ago         117MB
 hello-world             latest              fce289e99eb9        5 weeks ago         1.84kB
+
+
+На основании вывода команды docker inspect можно сделать вывод что 
+docker inspect <u_container_id> содержит инфрмацию о том когда был создан контейнер, из какого образа, описывается настройка сети и директорий, 
+локальные пользователи , различные лимиты ресурсов и прочее. Вся информация по конкретному контейнеру.
+docker inspect <u_image_id> описывает из какого контейнера был сделан образ. В нашем случае этот id можно найтив списке наших контейнеров.
+Команда docker inspect <u_image_id> в отличие от docker inspect <u_container_id> не дает данных о сетевых настройках, разлчных данных из секции HostConfig.
+В сравнении с VMWare образ докера это template, а докерский контейнер это ВМ.
