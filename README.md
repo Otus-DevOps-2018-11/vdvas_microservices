@@ -37,7 +37,7 @@ docker inspect <u_container_id>
 docker inspect <u_image_id>
 ```
 ПОнимание разницы между контейнером и образом.<br>
-Заполнение файла dockermonolith/docker-1.log<br>
+Заполнение файла docker-monolith/docker-1.log<br>
 Завершение работы контейнера<br>
 ```
 docker kill $(docker ps -q) 
