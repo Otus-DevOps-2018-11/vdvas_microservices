@@ -23,18 +23,30 @@ docker attach <u_container_id>
 ```
 docker run -dt nginx:latest
 ```
-Запуск команды в контейнере
+Запуск команды в контейнере<br>
+```
 docker exec -it <u_container_id> bash
-Создали коммит из контейнера
+```
+Создали коммит из контейнера<br>
+```
 docker commit <u_container_id> yourname/ubuntu-tmp-file 
-Сравнение вывода команд
->docker inspect <u_container_id>
->docker inspect <u_image_id>
-ПОнимание разницы между контейнером и образом.
-Заполнение файла dockermonolith/docker-1.log
-Завершение работы контейнера
+```
+Сравнение вывода команд<br>
+```
+docker inspect <u_container_id>
+docker inspect <u_image_id>
+```
+ПОнимание разницы между контейнером и образом.<br>
+Заполнение файла dockermonolith/docker-1.log<br>
+Завершение работы контейнера<br>
+```
 docker kill $(docker ps -q) 
-Удаление контейнеров
->docker rm $(docker ps -a -q)
-Удаление образов
+```
+Удаление контейнеров<br>
+```
+docker rm $(docker ps -a -q)
+```
+Удаление образов<br>
+```
 docker rmi $(docker images -q) 
+```
