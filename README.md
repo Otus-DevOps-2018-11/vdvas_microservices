@@ -1,8 +1,8 @@
 # vdvas_microservices
 vdvas microservices repository
-Был установлен docker по мануалу https://docs.docker.com/install/linux/docker-ce/ubuntu/ на ВМ в GCP
-Был запущен первый контейнер hello-world
-docker run hello-world 
+Был установлен docker по мануалу https://docs.docker.com/install/linux/docker-ce/ubuntu/ на ВМ в GCP <br>
+Был запущен первый контейнер hello-world <br>
+docker run hello-world <br>
 Были изучены команды работы с контейнерами и образами
 docker ps 
 docker images
