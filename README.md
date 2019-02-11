@@ -1,18 +1,28 @@
 # vdvas_microservices
-vdvas microservices repository
+vdvas microservices repository<br>
 Был установлен docker по мануалу https://docs.docker.com/install/linux/docker-ce/ubuntu/ на ВМ в GCP <br>
 Был запущен первый контейнер hello-world <br>
+```
 docker run hello-world <br>
-Были изучены команды работы с контейнерами и образами
+```
+Были изучены команды работы с контейнерами и образами<br>
+```
 docker ps 
 docker images
-Был запущен новый контейнер и подключена консоль к новому контейнеру
+```
+Был запущен новый контейнер и подключена консоль к новому контейнеру<br>
+```
 docker run -it ubuntu:16.04 /bin/bash 
-Ручной запуск и подключение к терминалу определенного контейнера
-> docker start <u_container_id>
-> docker attach <u_container_id>
-Запущен контейнер в background режиме
+```
+Ручной запуск и подключение к терминалу определенного контейнера<br>
+```
+docker start <u_container_id>
+docker attach <u_container_id>
+```
+Запущен контейнер в background режиме<br>
+```
 docker run -dt nginx:latest
+```
 Запуск команды в контейнере
 docker exec -it <u_container_id> bash
 Создали коммит из контейнера
