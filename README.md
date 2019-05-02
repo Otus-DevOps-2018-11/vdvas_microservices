@@ -1,4 +1,18 @@
 # vdvas_microservices
+# Homework №12  
+Docker-2  
+Запустим докер хост и повторим практику из лекции по изучению:  
+• PID namespace (изоляция процессов)  
+• net namespace (изоляция сети)  
+• user namespaces (изоляция пользователей)   
+Создадим Dockerfile в котором уакжем какие пакеты установить и скопируем заранее приготовленные файлы конфигов mongodb.conf.  
+Соберем образ командой docker build.  Откроем порт в фаерволе.  
+Запустим контейнер командой docker run и проверим что приложение работает http://ip:9292.  
+Запушим получившийся образ в Docker Hub и запустим образ из докер хаба на другой машине.
+
+
+# Homework №11  
+Docker-1  
 vdvas microservices repository<br>
 Был установлен docker по мануалу https://docs.docker.com/install/linux/docker-ce/ubuntu/ на ВМ в GCP <br>
 Был запущен первый контейнер hello-world <br>
