@@ -1,0 +1,12 @@
+command:
+  mongod --version | head -n1:
+    exit-status: 0
+    stdout:
+      -db version v3.2.17
+process:
+  mongod:
+    running: true
+addr:
+  tcp://localhost:27017:
+    reachable: true
+    timeout: 500
