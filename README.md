@@ -1,4 +1,10 @@
 # vdvas_microservices
+#Homework #15
+Monitoring-1
+Запуск docker-compose с .env файлом
+sudo env $(cat .env) docker-compose up -d
+Это специфика версии docker-compose 1.24.0
+
 # Homework №14  
 Docker-4  
 Исследуем контейнеры с 3 видами сетей:  
