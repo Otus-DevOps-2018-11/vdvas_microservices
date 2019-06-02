@@ -1,9 +1,22 @@
 # vdvas_microservices
 #Homework #15
 Monitoring-1
-Запуск docker-compose с .env файлом
-sudo env $(cat .env) docker-compose up -d
-Это специфика версии docker-compose 1.24.0
+Запустим готовый образ prometheus.  
+Ознакомимся с вэб интерфейсом prometheus.  
+Переупорядочим структуру репозитория.  
+Сбилдим образ prometheus, использую заготовленный prometheus.yml.  
+Сбмлдим образы нашего приложения.  
+Перепишем docker-compose.yml используя образы наших приложений и добавим сервис prometheus.  
+Запуск docker-compose с .env файлом  
+`sudo env $(cat .env) docker-compose up -d`  
+Это специфика версии docker-compose 1.24.0  
+Проверим healthcheck's работающих сервисов в prometheus.  
+Добавим сервис node_exporter в docker-compose.  
+Добавим описание в prometheus.yml и пересоберем контейнер prometheus.  
+Пересоздадим сервисы в docker-compose.  
+Проверим нагрузку cpu на хосте в prometheus.  
+Ссылка на докер хаб  
+https://hub.docker.com/?namespace=vdvas  
 
 # Homework №14  
 Docker-4  
