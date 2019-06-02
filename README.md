@@ -1,6 +1,6 @@
 # vdvas_microservices
 # Homework №15  
-Monitoring-1  
+Monitoring-1.  
 Запустим готовый образ prometheus.  
 Ознакомимся с вэб интерфейсом prometheus.  
 Переупорядочим структуру репозитория.  
